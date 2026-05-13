@@ -137,6 +137,10 @@ export const useSheetsSearchEngine = () => {
         keys: [
           {
             name: 'searchAcronyms',
+            weight: 3,
+          },
+          {
+            name: 'artist',
             weight: 2,
           },
           {
